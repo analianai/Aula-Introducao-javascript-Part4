@@ -1,4 +1,8 @@
-# Validação de Formulário com HTML, CSS e JavaScript
+![Proz](/assets/hd-header.png)
+
+# Introdução ao JavaScript Parte 04
+
+## Validação de Formulário com HTML, CSS e JavaScript
 A validação de formulários com JavaScript é uma prática essencial no desenvolvimento web para garantir que os dados enviados por usuários estejam no formato correto antes de serem processados no servidor. Isso melhora a experiência do usuário, reduz erros e protege o sistema contra entradas maliciosas.
 
 Existem dois tipos principais de validação de formulários:
