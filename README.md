@@ -163,7 +163,6 @@ form.addEventListener('submit', validateForm);
 Clone o repositório:
 
 ````bash
-Copiar código
 git clone https://github.com/seu-usuario/formulario-validacao.git
 ````
 
