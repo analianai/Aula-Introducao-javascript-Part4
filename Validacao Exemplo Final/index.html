@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form id="formCadastro" novalidate> 
+      <!--O atributo novalidate desativa a validação padrão do navegador.-->
+        <h2>Cadastro</h2>
+        <div class="form-group">
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+          <span class="error-message">O nome é obrigatório.</span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Digite seu email" required>
+          <span class="error-message">Digite um email válido.</span>
+        </div>
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" placeholder="Digite uma senha (min. 6 caracteres)" required>
+          <span class="error-message">A senha deve ter no mínimo 6 caracteres.</span>
+        </div>
+        <div class="form-group">
+          <label for="confirmarSenha">Confirmar Senha</label>
+          <input type="password" id="confirmarSenha" placeholder="Confirme sua senha" required>
+          <span class="error-message">As senhas não coincidem.</span>
+        </div>
+        <button type="submit">Cadastrar</button>
+      </form>
+      
+
+<script src="./script.js"></script>
+</body>
+</html>
